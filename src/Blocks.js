@@ -28,7 +28,7 @@ function BlockList(props) {
                         <div className="input-group-prepend">
                             <div className="input-group-text">#</div>
                         </div>
-                        <input type="text" className="form-control blockId" id="blockId" />
+                        <input type="text" className="form-control blockId" id="blockId" value={props.index} />
                     </div>
                 </div>
                 <div className="form-group">

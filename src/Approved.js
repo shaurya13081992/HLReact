@@ -15,7 +15,7 @@ class Approved extends Component {
     return (
       <div className="App">
         <ul className="liststyle">
-          <li><button onClick={this.toggleBlockDisplay.bind(this)}>Test Shipment1</button></li>
+          <li><button className="btn btn-link" onClick={this.toggleBlockDisplay.bind(this)}>Test Shipment1</button></li>
         </ul>
         {this.state.showBlock ? <Blocks /> : null}
       </div>
